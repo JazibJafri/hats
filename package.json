@@ -1,0 +1,31 @@
+{
+    "name": "hats",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "rollup -c",
+        "start": "rollup -c -w",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JazibJafri/hats.git"
+    },
+    "author": "JazibJafri",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JazibJafri/hats/issues"
+    },
+    "homepage": "https://github.com/JazibJafri/hats#readme",
+    "devDependencies": {
+        "@babel/core": "^7.11.1",
+        "@babel/runtime": "^7.11.2",
+        "rollup": "^2.26.3",
+        "rollup-plugin-typescript2": "^0.27.2",
+        "typescript": "^3.9.7"
+    }
+}
