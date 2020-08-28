@@ -15,8 +15,9 @@
         "strictNullChecks": true,
         "suppressImplicitAnyIndexErrors": true,
         "noUnusedLocals": true,
-        "noUnusedParameters": true
+        "noUnusedParameters": true,
+        "types": ["jest"]
     },
     "include": ["src"],
-    "exclude": ["node_modules", "dist", "example", "rollup.config.js"]
+    "exclude": ["node_modules", "dist", "examples", "rollup.config.js", "**/*.test.ts"]
 }
