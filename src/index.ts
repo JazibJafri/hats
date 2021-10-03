@@ -6,7 +6,7 @@
  * @param separator delimiter to use between numbers. Default: ' (single-quote)
  */
 export const toCurrency = (
-    str: string,
+    str,
     symbol: string = '',
     symbolPosition: 'before' | 'after' = 'before',
     separator: string = "'",
